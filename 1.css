@@ -1,19 +1,24 @@
 body {
-    background-color:rgb(10, 10, 10);
-    color:rgb(255, 255, 255);
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
     font-family: monospace;
     font-size: large;
 }
 
-table, th, td {
+table,
+th,
+td,
+.bor1 {
     border: 1px solid white;
 }
 
-.centertext {
+.centertext,
+.center {
     text-align: center;
 }
 
-.centercontents {
+.centercontents,
+.center {
     margin: auto;
     width: 50%;
 }
@@ -23,11 +28,15 @@ table, th, td {
 }
 
 .bgcolor1 {
-    background-color:rgb(39, 39, 39);
+    background-color: rgb(39, 39, 39);
 }
 
 .bgcolor2 {
     background-color: white;
+}
+
+.bgcolor3 {
+    background-color: rgb(19, 19, 19);
 }
 
 .borcolor1 {
@@ -42,9 +51,11 @@ table, th, td {
     height: 500px;
 }
 
+.imagem_display {
+    width: 500px;
+    height: 300px;
+}
+
 .rounded_corners {
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
 }
