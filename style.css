@@ -5,6 +5,11 @@ body {
     font-size: large;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 button {
     color: white;
     font-size: large;
