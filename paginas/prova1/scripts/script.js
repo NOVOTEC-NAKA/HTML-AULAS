@@ -1,4 +1,4 @@
-function mudar(imagemSrc, texto) {
+function mudar(imagemSrc="imagems/black.png", texto=" ") {
     document.getElementById("imagemDisplay").src = imagemSrc
     document.getElementById("personagem").innerHTML = texto
 }
