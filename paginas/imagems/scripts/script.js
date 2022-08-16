@@ -8,5 +8,6 @@ function levarWiki() {
     if (personagem == " ") {
         return
     }
-    window.open("https://jjba.fandom.com/pt-br/wiki/"+personagem.replace(" ", "_"))
+    open("https://jjba.fandom.com/pt-br/wiki/"+personagem.replace(" ", "_"))
+    //location.replace("https://jjba.fandom.com/pt-br/wiki/"+personagem.replace(" ", "_"))
 }

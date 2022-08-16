@@ -6,7 +6,7 @@ body {
 }
 
 a, a:hover, a:focus, a:active {
-    text-decoration: none;
+    
     color: inherit;
 }
 
@@ -89,4 +89,9 @@ button.invisible {
 
 .padding1 {
     padding: 10px;
+}
+
+.square_form {
+    height: 50px;
+    width: 50px;
 }
