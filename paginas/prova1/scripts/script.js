@@ -5,11 +5,8 @@ function mudar(imagemSrc, texto) {
 
 function levarWiki() {
     var personagem = document.getElementById("personagem").innerHTML
-
     if (personagem == " ") {
         return
     }
-
     window.open("https://jjba.fandom.com/pt-br/wiki/"+personagem.replace(" ", "_"))
-
 }
