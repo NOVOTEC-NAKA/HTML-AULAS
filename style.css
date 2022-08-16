@@ -79,3 +79,11 @@ button.invisible {
     border-color: transparent;
     cursor: default;
 }
+
+.margin_left {
+    margin-left: 15px;
+}
+
+.padding1 {
+    padding: 10px;
+}
