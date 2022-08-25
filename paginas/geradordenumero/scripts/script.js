@@ -3,7 +3,7 @@ function randomNumber(min, max) {
 }
 
 function gerarNum() {
-    var numGerado = randomNumber(0, 1000)
+    var numGerado = randomNumber(0, 9999)
 
     if (numGerado < 10) {
         numGerado = "000"+numGerado
