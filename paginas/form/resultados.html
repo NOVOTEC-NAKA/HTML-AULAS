@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <script src="scripts/script.js"></script>
     <head>
         <title>HTML-AULAS / Formulário / Resultados</title>
         <link rel="icon" type="image/x-icon" href="../../icone.ico">
         <link rel="stylesheet" type="text/css" href="../../style.css">
     </head>
-    <body>
+    <body onload="mostrarDados()">
         <h1 class="bgcolor1 bor1 rounded_corners centertext">
             <a href="../../index.html">Home</a> - <a href="./index.html">Formulário</a> / Resultados
         </h1>
         <div class="bor1 bgcolor3 centercontents height1 rounded_corners">
-             
+            <br>
+            <div class="margin_left" style="float:left">
+                <fieldset class="rounded_corners">
+                    <legend>Dados Recebidos:</legend>
+
+                    <p id="nomePessoaDisplay">Nome: </p>
+                </fieldset>
+            </div>
         </div>
     </body>
 </html>
