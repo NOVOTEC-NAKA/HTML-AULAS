@@ -14,55 +14,112 @@
             <div class="margin_left" style="float:left">
                 <form id="form" name="dadosPessoa" action="./resultados.html" method="get"
                     autocomplete="off">
-                    <div>
+                    <div class="">
                         <fieldset class="rounded_corners float_left">
                             <legend>Nome:</legend>
 
                             <input type="text" id="nomeCampo"
                                 name="nome"
-                                placeholder="Digite o Seu Nome." required>
+                                placeholder="Digite o Seu Nome." required><br>
+                            <p></p>
                             
                         </fieldset>
+
                         <fieldset class="rounded_corners float_left">
+                            <legend>Data de Nascimento:</legend>
+
+                            <input type="date" id="dataCampo"
+                                name="data"
+                                required><br>
+                                <p></p>
+                            
+                        </fieldset>
+
+                        <fieldset class="rounded_corners">
                             <legend>Você está vivo?:</legend>
 
                             <input type="radio" id="éVivoCampo" name="éVivo" value="true">
-                            <label for="éVivoCampo">Sim</label><br>
+                            <label for="éVivoCampo" >Sim</label><br>
 
-                            <input type="radio" id="éMortoCampo" name="éMorto" value="true">
+                            <input type="radio" id="éMortoCampo" name="éVivo" value="false">
                             <label for="éMortoCampo">Não</label><br>
                             
                         </fieldset>
+
                         <fieldset class="rounded_corners float_left">
                             <legend>Transporte:</legend>
 
-                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                            <label for="vehicle1">Bike</label><br>
+                            <input type="checkbox" id="bike" name="temBike" value="true">
+                            <label for="bike">Bike</label><br>
 
-                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                            <label for="vehicle2">Carro</label><br>
+                            <input type="checkbox" id="carro" name="temCarro" value="true">
+                            <label for="carro">Carro</label><br>
                             
                         </fieldset>
-                        <fieldset class="rounded_corners float_left">
+                    
+                        <fieldset class="rounded_corners">
                             <legend>Taiwan é um país?:</legend>
 
-                            <input type="radio" id="taiwanÉPaís" name="taiwan" value="true">
+                            <input type="radio" id="taiwanÉPaís" name="taiwanExiste" value="true">
                             <label for="taiwanÉPaís">Sim</label><br>
 
-                            <input type="radio" id="taiwanNãoÉPaís" name="taiwan" value="false">
+                            <input type="radio" id="taiwanNãoÉPaís" name="taiwanExiste" value="false">
                             <label for="taiwanNãoÉPaís">Não</label><br>
                         </fieldset>
-                        <fieldset class="rounded_corners float_left">
-                            <legend>Palavra:</legend>
 
-                            <input type="text" id="palavra"
-                                name="palavra"
-                                placeholder="Digite...">
+                        <fieldset class="rounded_corners float_left">
+                            <legend>Digite "Pato":</legend>
+
+                            <input type="text" id="patoCampo"
+                                name="pato"
+                                placeholder='Digite "Pato".' required><br>
+                                <p></p>
+                            
+                        </fieldset>
+
+                        <fieldset class="rounded_corners">
+                            <legend>Digite um Número:</legend>
+
+                            <input type="number" id="numCampo"
+                                name="num"
+                                placeholder="Digite um Número." required><br>
+                                <p></p>
+                            
+                        </fieldset>
+
+                        <fieldset class="rounded_corners">
+                            <legend>Escolhe um Mês:</legend>
+
+                            <input type="date" id="data2Campo"
+                                name="data2"
+                                required><br>
+                                <p></p>
+                            
+                        </fieldset>
+
+                        <fieldset class="rounded_corners float_left">
+                            <legend>Escolhe uma Cor:</legend>
+
+                            <input type="color" id="corCampo"
+                                name="cor"
+                                required><br>
+                                <p></p>
+                            
+                        </fieldset>
+
+                        <fieldset class="rounded_corners">
+                            <legend>Digite um Email:</legend>
+
+                            <input type="email" id="emailCampo"
+                                name="email"
+                                placeholder="Digite um email."
+                                required><br>
+                                <p></p>
                             
                         </fieldset>
                     </div>
                     
-                    <input type="submit" value="Mandar" class="fake_button float_left">
+                    <input type="submit" value="Mandar" class="fake_button centercontents">
                 </form>
             </div>
         </div>
