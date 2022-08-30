@@ -12,19 +12,57 @@
         <div class="bor1 bgcolor3 centercontents height1 rounded_corners">
             <br>
             <div class="margin_left" style="float:left">
-                <form name="dadosPessoa" action="./resultados.html" method="get"
+                <form id="form" name="dadosPessoa" action="./resultados.html" method="get"
                     autocomplete="off">
-                    
-                    <fieldset class="rounded_corners">
-                        <legend>Pessoa:</legend>
+                    <div>
+                        <fieldset class="rounded_corners float_left">
+                            <legend>Nome:</legend>
 
-                        <label for="nomePessoaCampo">Nome:</label><br>
-                        <input type="text" id="nomePessoaCampo"
-                            name="nomePessoaDado" 
-                            placeholder="Digite o Seu Nome." required>
-                            <br><br>
-                        <input type="submit" value="Mandar" class="fake_button">
-                    </fieldset>
+                            <input type="text" id="nomeCampo"
+                                name="nome"
+                                placeholder="Digite o Seu Nome." required>
+                            
+                        </fieldset>
+                        <fieldset class="rounded_corners float_left">
+                            <legend>Você está vivo?:</legend>
+
+                            <input type="radio" id="éVivoCampo" name="éVivo" value="true">
+                            <label for="éVivoCampo">Sim</label><br>
+
+                            <input type="radio" id="éMortoCampo" name="éMorto" value="true">
+                            <label for="éMortoCampo">Não</label><br>
+                            
+                        </fieldset>
+                        <fieldset class="rounded_corners float_left">
+                            <legend>Transporte:</legend>
+
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1">Bike</label><br>
+
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2">Carro</label><br>
+                            
+                        </fieldset>
+                        <fieldset class="rounded_corners float_left">
+                            <legend>Taiwan é um país?:</legend>
+
+                            <input type="radio" id="taiwanÉPaís" name="taiwan" value="true">
+                            <label for="taiwanÉPaís">Sim</label><br>
+
+                            <input type="radio" id="taiwanNãoÉPaís" name="taiwan" value="false">
+                            <label for="taiwanNãoÉPaís">Não</label><br>
+                        </fieldset>
+                        <fieldset class="rounded_corners float_left">
+                            <legend>Palavra:</legend>
+
+                            <input type="text" id="palavra"
+                                name="palavra"
+                                placeholder="Digite...">
+                            
+                        </fieldset>
+                    </div>
+                    
+                    <input type="submit" value="Mandar" class="fake_button float_left">
                 </form>
             </div>
         </div>

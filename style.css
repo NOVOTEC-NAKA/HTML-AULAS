@@ -99,3 +99,7 @@ button.invisible {
     height: 50px;
     width: 50px;
 }
+
+.float_left {
+    float: left;
+}
