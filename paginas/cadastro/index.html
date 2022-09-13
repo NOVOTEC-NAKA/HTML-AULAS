@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>HTML-AULAS / Cadastro</title>
+        <link rel="icon" type="image/x-icon" href="../../icone.ico">
+        <link rel="stylesheet" type="text/css" href="../../style.css">
+    </head>
+    <body>
+        <h1 class="bgcolor1 bor1 rounded_corners centertext">
+            <a href="../../index.html">Home</a> - Cadastro
+        </h1>
+        <div class="bor1 bgcolor3 centercontents height1 rounded_corners">
+            <br>
+            <div class="margin_left" style="float:left">
+                <form id="form" name="dadosPessoa" action="./resultados.html"
+                    method="get" autocomplete="off">
+                    <div>
+                        <fieldset class="rounded_corners float_left">
+                            <legend>Dados:</legend>
+
+                            <div>
+                                <label for="nomeCampo">Nome:</label><br>
+                                <input type="text" id="nomeCampo" name="nome"
+                                    placeholder="Ex. José" required>
+                                <br>
+                            </div>
+
+                            <div>
+                                <label for="sobrenomeCampo">Sobrenome:</label><br>
+                                <input type="text" id="sobrenomeCampo"
+                                    name="sobrenome" placeholder="Ex. da Silva"
+                                    required>
+                                <br>
+                            </div>
+
+                            <div>
+                                <label for="emailCampo">Email:</label><br>
+                                <input type="email" id="emailCampo" name="email"
+                                    placeholder="Ex. 123456@email.com" required>
+                                <br>
+                            </div>
+                        </fieldset>
+
+                    </div>
+
+                    <input type="submit" value="Mandar" class="fake_button
+                        centercontents">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
