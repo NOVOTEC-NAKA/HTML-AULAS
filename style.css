@@ -69,9 +69,6 @@ td,
     width: 500px;
     height: 300px;
 }
-.imagem_display:hover {
-    cursor: pointer;
-}
 
 .rounded_corners {
     border-radius: 5px;
@@ -102,4 +99,16 @@ button.invisible {
 
 .float_left {
     float: left;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+  
+.zNormal:hover {
+    transform: scale(1.05);
+}
+
+.zWeak:hover {
+    transform: scale(1.02);
 }
